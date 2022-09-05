@@ -1,0 +1,91 @@
+.wraport {
+    max-width: 1280px;
+    margin: 0 auto; /*выравнивает по центру*/
+}
+a {
+    text-decoration: none;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+}
+li {
+    list-style: none;
+}
+.logo {
+    display: flex;
+}
+ul {
+    display: flex;
+}
+.mobilenav {
+    display: none;
+}
+.mobilenav1 {
+    display: none;
+}
+.desctop1 {
+    display: none;
+    max-width: 768px;
+}
+@media screen and (max-width: 768px ) {
+     .desctop-nav {
+    display: none;
+}
+.logo {
+    font-size: 24px;
+}
+
+.mobilenav {
+    display: block;
+}
+.mobilenav1 {
+    display: block;
+}
+.desctop {
+    display: none;
+}
+.desctop1 {
+    display: block;
+}
+.img2 {
+    width: 1000px;
+}
+
+}
+
+.desctop {
+    padding-left: 20px;
+    padding-top: 100px;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.mark1 {
+    background: none;
+    color: #07B464;
+}
+.h1s {
+    width: 320px;
+}
+.p3 {
+    width: 300px;
+}
+.a2 {
+    text-decoration: none;
+    color: white;
+    border: 2px solid #34E06F;
+    background-color: #34E06F;
+    border-radius: 5px;
+}
+.a4 {
+    padding-top: 50px;
+}
+.img3 {
+    width: 817px;
+}
+.lol1 {
+    display: flex;
+}
+.imgk {
+    width: 100%;
+}
